@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/Learn/Developer/DevDepartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn/Developer/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn/Developer/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn/Developer/Freelancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn/Developer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn/Developer/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn/Developer/QualityAssurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn/Game/Archer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn/Game/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn/Game/PlayerCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn/Game/Wizard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn/test.java" afterDir="false" />
+    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="//">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Canvas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesiunea4/School/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesiunea4/School/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sesiunea4/School/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Curs/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -59,7 +56,20 @@
       <recent name="Learn.Developer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Canvas">
+    <configuration name="Canvas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sesiunea4.Geometry.Canvas" />
+      <module name="DoAndLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sesiunea4.Geometry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Learn.Game.Game" />
       <module name="DoAndLearn" />
@@ -88,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Canvas" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Game" />
       </list>
@@ -101,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658564961356</updated>
-      <workItem from="1658564967492" duration="15070000" />
+      <workItem from="1658564967492" duration="22905000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658565289500</created>
@@ -110,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658565289500</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Principiile oop">
+      <created>1658588904656</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658588904656</updated>
+    </task>
+    <task id="LOCAL-00003" summary="//">
+      <created>1658589212657</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658589212657</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +154,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Principiile oop" />
+    <MESSAGE value="//" />
+    <option name="LAST_COMMIT_MESSAGE" value="//" />
   </component>
 </project>
