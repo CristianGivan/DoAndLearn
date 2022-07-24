@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="//">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Canvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesiunea4/School/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesiunea4/School/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sesiunea4/School/Teacher.java" afterDir="false" />
+    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="scoala">
+      <change afterPath="$PROJECT_DIR$/src/Sesiunea4/School/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/School/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesiunea4/School/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/School/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sesiunea4/School/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658564961356</updated>
-      <workItem from="1658564967492" duration="22905000" />
+      <workItem from="1658564967492" duration="25451000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658565289500</created>
@@ -135,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658589212657</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="scoala">
+      <created>1658661406307</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658661406307</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +157,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="Principiile oop" />
     <MESSAGE value="//" />
-    <option name="LAST_COMMIT_MESSAGE" value="//" />
+    <MESSAGE value="scoala" />
+    <option name="LAST_COMMIT_MESSAGE" value="scoala" />
   </component>
 </project>

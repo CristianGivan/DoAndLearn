@@ -30,6 +30,7 @@ public class Teacher extends Person {
 
     @Override
     public void introduce() {
-        System.out.println("Introduction");
+        System.out.println("I am "+this.getFirstName()+this.getLastName()+" I teach "+this.subject+
+                " and I am a teacher");
     }
 }
