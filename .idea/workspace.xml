@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="fara erroare">
-      <change afterPath="$PROJECT_DIR$/src/Teme/BankingApp/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Teme/BankingApp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Teme/BankingApp/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Teme/BankingApp/SpendingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Teme/BankingApp/StudentAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Teme/Geometry/Resizable.java" afterDir="false" />
+    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="Banking App">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/Geometry/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Geometry/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/Geometry/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Geometry/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Shelter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Shelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Shelter/Shelter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/BankingApp/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/BankingApp/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/BankingApp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/BankingApp/BankingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/BankingApp/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/BankingApp/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +52,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Teme.BankingApp.Main">
+    <configuration name="BankingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Teme.BankingApp.BankingApp" />
+      <module name="DoAndLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Teme.BankingApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Canvas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Teme.Geometry.Canvas" />
       <module name="DoAndLearn" />
@@ -91,19 +97,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Curs.C220726.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Teme.BankingApp.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Teme.BankingApp.Main" />
-      <module name="DoAndLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Teme.BankingApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,7 +138,7 @@
       <workItem from="1658564967492" duration="25451000" />
       <workItem from="1658848769625" duration="7709000" />
       <workItem from="1659011614090" duration="10804000" />
-      <workItem from="1659093974093" duration="8330000" />
+      <workItem from="1659093974093" duration="13895000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658565289500</created>
@@ -203,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659072431521</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Banking App">
+      <created>1659103867034</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659103867034</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +229,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="err NullPointerException" />
     <MESSAGE value="fara erroare" />
-    <option name="LAST_COMMIT_MESSAGE" value="fara erroare" />
+    <MESSAGE value="Banking App" />
+    <option name="LAST_COMMIT_MESSAGE" value="Banking App" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -248,6 +249,21 @@
           <url>file://$PROJECT_DIR$/src/Teme/Geometry/Circle.java</url>
           <line>21</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Teme/BankingApp/Person.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Teme/BankingApp/Person.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Teme/BankingApp/Person.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
