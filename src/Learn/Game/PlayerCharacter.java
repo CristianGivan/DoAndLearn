@@ -4,9 +4,12 @@ public abstract class PlayerCharacter {
     private String name;
     private int age;
 
-    public PlayerCharacter(String name, int age) {
+    private int currentLevel;
+
+    public PlayerCharacter(String name, int age, int currentLevel) {
         this.name = name;
         this.age = age;
+        this.currentLevel=currentLevel;
     }
 
     public void run() {
@@ -40,5 +43,11 @@ public abstract class PlayerCharacter {
         this.age = age;
     }
 
+    public int getCurrentLevel() {
+        return currentLevel;
+    }
 
+    public void setCurrentLevel(int currentLevel) {
+        this.currentLevel = currentLevel;
+    }
 }
