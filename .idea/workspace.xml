@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="Sesiunea 220726">
-      <change afterPath="$PROJECT_DIR$/src/Curs/C220726/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Curs/C220726/CalculatorClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Curs/C220726/CsvReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Curs/C220726/InvalidEmailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Curs/C220726/OnlineShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Curs/C220726/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Curs/C220726/sensor_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Curs/T220726/CinemaHall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Curs/test.java" afterDir="false" />
+    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/Teme/Shelter/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Teme/Shelter/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Teme/Shelter/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Teme/Shelter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Teme/Shelter/Shelter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Learn/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Geometry/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Geometry/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Geometry/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Geometry/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/School/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/School/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/School/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/School/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/School/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/School/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/School/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/School/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,26 +61,13 @@
       <recent name="Learn.Developer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OnlineShop">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CalculatorClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Curs.C220726.CalculatorClient" />
       <module name="DoAndLearn" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Curs.C220726.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Canvas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sesiunea4.Geometry.Canvas" />
-      <module name="DoAndLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sesiunea4.Geometry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +89,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Learn.Developer.Main" />
+      <option name="MAIN_CLASS_NAME" value="Teme.Shelter.Main" />
       <module name="DoAndLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Learn.Developer.*" />
+          <option name="PATTERN" value="Teme.Shelter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,13 +114,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Teme.School.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Teme.School.Main" />
+      <module name="DoAndLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Teme.School.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Teme.School.Main" />
         <item itemvalue="Application.OnlineShop" />
         <item itemvalue="Application.CsvReader" />
         <item itemvalue="Application.CalculatorClient" />
-        <item itemvalue="Application.Canvas" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +147,7 @@
       <updated>1658564961356</updated>
       <workItem from="1658564967492" duration="25451000" />
       <workItem from="1658848769625" duration="7709000" />
-      <workItem from="1659011614090" duration="458000" />
+      <workItem from="1659011614090" duration="8154000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658565289500</created>
@@ -172,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658661406307</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sesiunea 220726">
+      <created>1659012157753</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659012157753</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test">
+      <created>1659012613923</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659012613923</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +214,7 @@
     <MESSAGE value="//" />
     <MESSAGE value="scoala" />
     <MESSAGE value="Sesiunea 220726" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sesiunea 220726" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>

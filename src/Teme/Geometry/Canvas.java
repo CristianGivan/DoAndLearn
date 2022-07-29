@@ -1,4 +1,4 @@
-package Sesiunea4.Geometry;
+package Teme.Geometry;
 
 public class Canvas {
     public static void main(String[] args) {

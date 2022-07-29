@@ -1,6 +1,4 @@
-package Sesiunea4.School;
-
-import javax.swing.*;
+package Teme.School;
 
 public class Student extends Person {
     private String groupClass;
@@ -17,8 +15,9 @@ public class Student extends Person {
     public void setGroupClass(String groupClass) {
         this.groupClass = groupClass;
     }
-    public void introduce(){
-        System.out.println("I am "+this.getFirstName()+this.getLastName()+" I am in "+this.groupClass+
+
+    public void introduce() {
+        System.out.println("I am " + this.getFirstName() + " " + this.getLastName() + " I am in " + this.groupClass +
                 " and I am a student");
     }
 }

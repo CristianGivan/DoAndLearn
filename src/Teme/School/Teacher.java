@@ -1,4 +1,4 @@
-package Sesiunea4.School;
+package Teme.School;
 
 public class Teacher extends Person {
     private String department;
@@ -27,10 +27,9 @@ public class Teacher extends Person {
     }
 
 
-
     @Override
     public void introduce() {
-        System.out.println("I am "+this.getFirstName()+this.getLastName()+" I teach "+this.subject+
+        System.out.println("I am " + this.getFirstName() + " " + this.getLastName() + " I teach " + this.subject +
                 " and I am a teacher");
     }
 }

@@ -1,4 +1,4 @@
-package Sesiunea4.Geometry;
+package Teme.Geometry;
 
 public interface Shape {
 

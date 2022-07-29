@@ -1,4 +1,4 @@
-package Sesiunea4.School;
+package Teme.School;
 
 public abstract class Person {
     private String firstName;
