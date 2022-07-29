@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="err NullPointerException">
+    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="fara erroare">
+      <change afterPath="$PROJECT_DIR$/src/Teme/BankingApp/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Teme/BankingApp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Teme/BankingApp/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Teme/BankingApp/SpendingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Teme/BankingApp/StudentAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Teme/Geometry/Resizable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/Geometry/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Geometry/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/Geometry/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Geometry/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Shelter/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Shelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Shelter/Shelter.java" afterDir="false" />
     </list>
@@ -33,42 +41,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Learn.Developer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CalculatorClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Curs.C220726.CalculatorClient" />
+  <component name="RunManager" selected="Application.Teme.BankingApp.Main">
+    <configuration name="Canvas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Teme.Geometry.Canvas" />
       <module name="DoAndLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Curs.C220726.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CsvReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Curs.C220726.CsvReader" />
-      <module name="DoAndLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Curs.C220726.*" />
+          <option name="PATTERN" value="Teme.Geometry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Teme.BankingApp.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Teme.BankingApp.Main" />
+      <module name="DoAndLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Teme.BankingApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Teme.School.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Teme.School.Main" />
       <module name="DoAndLearn" />
@@ -117,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Teme.BankingApp.Main" />
+        <item itemvalue="Application.Canvas" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Teme.School.Main" />
         <item itemvalue="Application.OnlineShop" />
-        <item itemvalue="Application.CsvReader" />
-        <item itemvalue="Application.CalculatorClient" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +144,8 @@
       <updated>1658564961356</updated>
       <workItem from="1658564967492" duration="25451000" />
       <workItem from="1658848769625" duration="7709000" />
-      <workItem from="1659011614090" duration="8916000" />
+      <workItem from="1659011614090" duration="10804000" />
+      <workItem from="1659093974093" duration="8330000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658565289500</created>
@@ -186,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659071779895</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fara erroare">
+      <created>1659072431521</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659072431521</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +228,8 @@
     <MESSAGE value="Sesiunea 220726" />
     <MESSAGE value="test" />
     <MESSAGE value="err NullPointerException" />
-    <option name="LAST_COMMIT_MESSAGE" value="err NullPointerException" />
+    <MESSAGE value="fara erroare" />
+    <option name="LAST_COMMIT_MESSAGE" value="fara erroare" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -221,7 +239,21 @@
           <line>2</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Teme/Geometry/Circle.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Teme/Geometry/Circle.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

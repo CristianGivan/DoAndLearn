@@ -1,6 +1,6 @@
 package Teme.Geometry;
 
-public class Circle implements Shape {
+public class Circle implements Shape, Resizable {
     private static final double PI =3.14;
     private double radius;
 
@@ -18,7 +18,11 @@ public class Circle implements Shape {
 
     @Override
     public double computeArea() {
+        double area=PI*radius*radius;
+        return area;
+    }
+    public void resize (double procent){
+        this.radius=this.radius*procent/100;
 
-        return PI*radius*radius;
     }
 }

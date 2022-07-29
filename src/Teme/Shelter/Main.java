@@ -15,6 +15,8 @@ public class Main {
         shelter5.addAnimal(animal4);
         //shelter5.addAnimal(animal1);
 
+        shelter5.makeNoise();
+
      //debug
     /*
         Animal[] animals = shelter5.getAnimals();

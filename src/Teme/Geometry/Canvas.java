@@ -6,5 +6,7 @@ public class Canvas {
         Rectangle rectangle=new Rectangle(10,20);
         System.out.println(circle.computeArea());
         System.out.println(rectangle.computeArea());
+        circle.resize(20);
+        System.out.println(circle.computeArea());
     }
 }

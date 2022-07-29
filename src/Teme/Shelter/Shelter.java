@@ -28,6 +28,12 @@ public class Shelter {
         }
     }
 
+    public void makeNoise() {
+        for (int i = 0; i < nrOfAnimals; i++) {
+            animals[i].makeSound();
+        }
+    }
+
 
     public int getMAX_ANIMAL_NR() {
         return MAX_ANIMAL_NR;
