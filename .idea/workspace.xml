@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/Teme/Shelter/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Teme/Shelter/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Teme/Shelter/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Teme/Shelter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Teme/Shelter/Shelter.java" afterDir="false" />
+    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="err NullPointerException">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Learn/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Geometry/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Geometry/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Geometry/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/Geometry/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Geometry/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/School/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/School/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/School/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/School/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/School/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/School/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sesiunea4/School/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/School/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Shelter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Shelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Teme/Shelter/Shelter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +135,7 @@
       <updated>1658564961356</updated>
       <workItem from="1658564967492" duration="25451000" />
       <workItem from="1658848769625" duration="7709000" />
-      <workItem from="1659011614090" duration="8154000" />
+      <workItem from="1659011614090" duration="8916000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658565289500</created>
@@ -191,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659012613923</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="err NullPointerException">
+      <created>1659071779895</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659071779895</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +210,18 @@
     <MESSAGE value="scoala" />
     <MESSAGE value="Sesiunea 220726" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="err NullPointerException" />
+    <option name="LAST_COMMIT_MESSAGE" value="err NullPointerException" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Teme/Shelter/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

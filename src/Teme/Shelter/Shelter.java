@@ -12,10 +12,10 @@ public class Shelter {
     }
 
     public boolean addAnimal(Animal animal) {
-        //< and not <=, because we don't want to exced the MAX_ANIMAL_NR with next increment
-        if (nrOfAnimals < MAX_ANIMAL_NR) {
-            nrOfAnimals++;
+
+        if (nrOfAnimals <= MAX_ANIMAL_NR) {
             this.animals[nrOfAnimals] = animal;
+            nrOfAnimals++;
             return true;
         }
         return false;
@@ -23,7 +23,7 @@ public class Shelter {
 
     public void displayAnimals() {
         for (int i = 0; i < nrOfAnimals; i++) {
-            System.out.println("Animalul se numeste" + animals[i].getName() +
+            System.out.println("Animalul se numeste " + animals[i].getName() +
                     "and it is " + animals[i].getAge() + " old");
         }
     }

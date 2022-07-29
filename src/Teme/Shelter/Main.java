@@ -15,11 +15,14 @@ public class Main {
         shelter5.addAnimal(animal4);
         //shelter5.addAnimal(animal1);
 
+     //debug
+    /*
         Animal[] animals = shelter5.getAnimals();
-        int indexOfAnimal =1;
-        System.out.println(animals[indexOfAnimal].getName());
+        int indexOfAnimal =3;
+        //System.out.println(animals[indexOfAnimal].getName());
         shelter5.displayAnimals();
-
+        //System.out.println(animals[indexOfAnimal].getName());
+    */
     }
 
 }
