@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="start libray">
-      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Concept.txt" afterDir="false" />
+    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="working on library">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Library/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +140,8 @@
       <workItem from="1658848769625" duration="7709000" />
       <workItem from="1659011614090" duration="10804000" />
       <workItem from="1659093974093" duration="36797000" />
-      <workItem from="1659190576028" duration="17953000" />
+      <workItem from="1659190576028" duration="18401000" />
+      <workItem from="1659212339243" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658565289500</created>
@@ -233,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659169194678</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="working on library">
+      <created>1659212116425</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659212116425</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +263,8 @@
     <MESSAGE value="Banking App" />
     <MESSAGE value="Overloading" />
     <MESSAGE value="start libray" />
-    <option name="LAST_COMMIT_MESSAGE" value="start libray" />
+    <MESSAGE value="working on library" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on library" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
