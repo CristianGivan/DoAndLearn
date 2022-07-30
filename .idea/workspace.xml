@@ -2,38 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="start libray">
-      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Request.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/Library/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Concept.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Curs/C2207219/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/OverloadingAnimals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Curs/C2207219/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/OverloadingAnimals/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Curs/C2207219/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/OverloadingAnimals/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Curs/C2207219/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/OverloadingAnimals/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/BankingApp/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/BankingApp/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/BankingApp/BankingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/BankingApp/BankingApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/BankingApp/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/BankingApp/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/BankingApp/SpendingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/BankingApp/SpendingAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/BankingApp/StudentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/BankingApp/StudentAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/Geometry/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/Geometry/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/Geometry/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/Geometry/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/Geometry/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/Geometry/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/Geometry/Resizable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/Geometry/Resizable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/Geometry/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/Geometry/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/School/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/School/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/School/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/School/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/School/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/School/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/School/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/School/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Shelter/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Shelter/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Shelter/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Shelter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Shelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Shelter/Shelter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,18 +39,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Learn" />
@@ -83,20 +60,7 @@
       <recent name="Learn.Developer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Learn.OverloadingAnimals.Main">
-    <configuration name="BankingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Projects.BankingApp.BankingApp" />
-      <module name="DoAndLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Projects.BankingApp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Projects.Library.Main">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Learn.Game.Game" />
       <module name="DoAndLearn" />
@@ -149,13 +113,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Projects.Library.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Projects.Library.Main" />
+      <module name="DoAndLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Projects.Library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Projects.Library.Main" />
         <item itemvalue="Application.Learn.OverloadingAnimals.Main" />
         <item itemvalue="Application.Game" />
-        <item itemvalue="Application.Projects.BankingApp.BankingApp" />
         <item itemvalue="Application.Learn.Geometry.Canvas" />
-        <item itemvalue="Application.Projects.Shelter.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +146,8 @@
       <workItem from="1658564967492" duration="25451000" />
       <workItem from="1658848769625" duration="7709000" />
       <workItem from="1659011614090" duration="10804000" />
-      <workItem from="1659093974093" duration="34884000" />
+      <workItem from="1659093974093" duration="36797000" />
+      <workItem from="1659190576028" duration="17953000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658565289500</created>
@@ -249,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659123779420</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="start libray">
+      <created>1659169194678</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659169194678</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

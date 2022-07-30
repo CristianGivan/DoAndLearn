@@ -1,5 +1,6 @@
 De ca sa folosim Overloading cand putem folosi alt nume de functie find book bu ISBN find book by name
 cum  ar trebui sa structuram mai bine:
+
 functie de cautarea cu wtich
 functii separata diferite pentru fiecare tip de cautare
 

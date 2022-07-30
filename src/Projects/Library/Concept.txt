@@ -1,0 +1,7 @@
+- doar bibliotecarul poate sa adauge carti (implementeze cerintele bibliotecarului) nu si studentul
+- pot sa fie mai multe biblioteci
+- un bibliotecar lucreaza la o singura librarie pe viitor pot fi mai multe
+- un student fregventeaza odar o singura biblioteca pe viitor pot fi mai multe
+430
+250
+
