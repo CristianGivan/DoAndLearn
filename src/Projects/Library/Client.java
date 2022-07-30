@@ -18,6 +18,7 @@ public class Client extends User {
 
     }
 
+
     public void displayBorrowedBooks(){
         for (int i=0; i<borrowedBooks.length;i++){
             System.out.println(borrowedBooks[i]);
