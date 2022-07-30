@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="Banking App">
-      <change afterPath="$PROJECT_DIR$/src/Curs/C2207219/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Curs/C2207219/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Curs/C2207219/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Curs/C2207219/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn/Game/Playable.java" afterDir="false" />
+    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="start libray">
+      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Request.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Library/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Text.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Learn/Game/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/Game/Archer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Learn/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/Game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Learn/Game/PlayerCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/Game/PlayerCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Learn/Game/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/Game/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Curs/C2207219/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/OverloadingAnimals/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Curs/C2207219/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/OverloadingAnimals/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Curs/C2207219/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/OverloadingAnimals/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Curs/C2207219/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/OverloadingAnimals/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/BankingApp/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/BankingApp/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/BankingApp/BankingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/BankingApp/BankingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/BankingApp/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/BankingApp/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/BankingApp/SpendingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/BankingApp/SpendingAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/BankingApp/StudentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/BankingApp/StudentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/Geometry/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/Geometry/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/Geometry/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/Geometry/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/Geometry/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/Geometry/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/Geometry/Resizable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/Geometry/Resizable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/Geometry/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/Geometry/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/School/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/School/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/School/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/School/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/School/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/School/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/School/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/School/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Shelter/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Shelter/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Shelter/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Shelter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teme/Shelter/Shelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Shelter/Shelter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,43 +75,21 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Learn" />
+      <recent name="Teme" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Learn.Developer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Curs.C2207219.Main">
+  <component name="RunManager" selected="Application.Learn.OverloadingAnimals.Main">
     <configuration name="BankingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Teme.BankingApp.BankingApp" />
+      <option name="MAIN_CLASS_NAME" value="Projects.BankingApp.BankingApp" />
       <module name="DoAndLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Teme.BankingApp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Canvas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Teme.Geometry.Canvas" />
-      <module name="DoAndLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Teme.Geometry.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Curs.C2207219.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Curs.C2207219.Main" />
-      <module name="DoAndLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Curs.C2207219.*" />
+          <option name="PATTERN" value="Projects.BankingApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +110,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Teme.Shelter.Main" />
+    <configuration name="Learn.Geometry.Canvas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Learn.Geometry.Canvas" />
       <module name="DoAndLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Teme.Shelter.*" />
+          <option name="PATTERN" value="Learn.Geometry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Learn.OverloadingAnimals.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Learn.OverloadingAnimals.Main" />
+      <module name="DoAndLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Learn.OverloadingAnimals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Projects.Shelter.Main" />
+      <module name="DoAndLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Projects.Shelter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Curs.C2207219.Main" />
+        <item itemvalue="Application.Learn.OverloadingAnimals.Main" />
         <item itemvalue="Application.Game" />
-        <item itemvalue="Application.Teme.BankingApp.Main" />
-        <item itemvalue="Application.Canvas" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Projects.BankingApp.BankingApp" />
+        <item itemvalue="Application.Learn.Geometry.Canvas" />
+        <item itemvalue="Application.Projects.Shelter.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +170,7 @@
       <workItem from="1658564967492" duration="25451000" />
       <workItem from="1658848769625" duration="7709000" />
       <workItem from="1659011614090" duration="10804000" />
-      <workItem from="1659093974093" duration="24108000" />
+      <workItem from="1659093974093" duration="34884000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658565289500</created>
@@ -216,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659112738505</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Overloading">
+      <created>1659123779420</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659123779420</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,28 +276,30 @@
     <MESSAGE value="err NullPointerException" />
     <MESSAGE value="fara erroare" />
     <MESSAGE value="Banking App" />
-    <option name="LAST_COMMIT_MESSAGE" value="Banking App" />
+    <MESSAGE value="Overloading" />
+    <MESSAGE value="start libray" />
+    <option name="LAST_COMMIT_MESSAGE" value="start libray" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Teme/Shelter/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/Projects/Shelter/Main.java</url>
           <line>2</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Teme/Geometry/Circle.java</url>
+          <url>file://$PROJECT_DIR$/src/Learn/Geometry/Circle.java</url>
           <line>24</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Teme/Geometry/Circle.java</url>
+          <url>file://$PROJECT_DIR$/src/Learn/Geometry/Circle.java</url>
           <line>21</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Curs/C2207219/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/Learn/OverloadingAnimals/Main.java</url>
           <line>8</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
