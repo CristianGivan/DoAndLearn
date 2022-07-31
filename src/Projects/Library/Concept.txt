@@ -10,6 +10,7 @@ ToDo general
 - as putea sa impart clasa book in 2 in book tot ce tine de carte nume autor isbn si bookRecord numar de copii si
     numar de carti imprumutate lista de persoane imprumutate
 - ar fi fain sa avem o lista de utilizatori
+- sa am o confirmare ca s-a facut comada add delete...
 
 
 ToDO Meniu

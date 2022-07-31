@@ -3,7 +3,6 @@ package Projects.Library;
 import java.util.Scanner;
 
 public class Book {
-
     private String name;
     private String author;
     private String isbn;
@@ -80,16 +79,6 @@ public class Book {
 
     public void setNumberOfBooksBorrowed(int numberOfBooksBorrowed) {
         this.numberOfBooksBorrowed = numberOfBooksBorrowed;
-    }
-///////////////////////////////////
-
-
-    public void borrowBook(String ISBN) {
-
-    }
-
-    public void returnBook(String ISBN) {
-
     }
 
 }

@@ -9,16 +9,11 @@ public class Main {
 
         final int MAXIM_BOOKS_IN_LIBRARY = 100;
         Book[] books = new Book[MAXIM_BOOKS_IN_LIBRARY];
-        books = initializateLibrary(books);
+        books = initializeLibrary(books);
         Library library = new Library(books);
-        Menu menu = new Menu();
         Librarian librarian = new Librarian("Librarian1", library);
         Student student = new Student("Student1", library);
-        Book newBook = new Book("New Book", "Old Author", "B105", 5, 6);
-        //admin.addBook(newBook);
-        //admin.displayAllBooksDetails();
-        //System.out.println("\n");
-/*
+        Menu menu = new Menu();
 
         do {
             displayMenu(menu.getTypeIn(), menu.getLogIn());
@@ -50,11 +45,10 @@ public class Main {
 
 
         } while (selectedInMenu != 0);
-*/
 
-        debugApp();
-        actionByLibrarian(librarian, menu, console);
-
+        debugApp(librarian, student);
+        //actionByLibrarian(librarian, student, menu, console);
+        //actionsByStudent(student, menu, console);
     }
 
     public static String typedByUser(Scanner console) {
@@ -74,10 +68,10 @@ public class Main {
         System.out.println("Log in with user name (librarian or student): ");
         fromConsole = typedByUser(console);
         if (fromConsole.contains("lib")) {
-            actionByLibrarian(librarian, menu, console);
+            actionByLibrarian(librarian, student, menu, console);
 
         } else {
-            actionsByStudent(menu, console);
+            actionsByStudent(student, menu, console);
         }
     }
 
@@ -87,15 +81,15 @@ public class Main {
     public static void help() {
     }
 
-    public static void actionByLibrarian(Librarian librarian, Menu menu, Scanner console) {
+    public static void actionByLibrarian(Librarian librarian, Student student, Menu menu, Scanner console) {
 
-        int choice = 8;
+        int choice = 7;
         int previousChose;
         boolean redoAction = false;
-
+        String debugS;
         do {
             if (!redoAction) {
-                displayMenu(menu.getTypeIn(), menu.getAdminMenu());
+                displayMenu(menu.getTypeIn(), menu.getLibrarianMenu());
                 System.out.println("\nYour chose is:");
                 choice = Integer.parseInt(typedByUser(console));
             }
@@ -103,64 +97,82 @@ public class Main {
 
             switch (choice) {
                 case 1:
-                    System.out.println("You chose to " + menu.getAdminMenu()[1] + "\n");
-                    Book newBook = new Book(console);
-                    //Book newBook=new Book("Book9", "Author1", "B109", 3, 0);
+                    System.out.println("You chose to " + menu.getLibrarianMenu()[1] + "\n");
+                    //Book newBook = new Book(console);
+                    Book newBook = new Book("Book9", "Author1", "B109", 3, 0);
                     librarian.addBook(newBook);
                     System.out.println(newBook.toString());
                     break;
                 case 2:
-                    System.out.println("You chose to " + menu.getAdminMenu()[2] + "\n");
+                    //delete a book from library base of ISBN
+                    System.out.println("You chose to " + menu.getLibrarianMenu()[2] + "\n");
+                    //todo display a list of all avalelbe isbn
+                    System.out.println("Insert ISBN of the book:");
+                    librarian.deleteBook(typedByUser(console));
                     break;
                 case 3:
-                    System.out.println("You chose to " + menu.getAdminMenu()[3] + "\n");
+                    //delete a copy of a book base on ISBN
+                    System.out.println("You chose to " + menu.getLibrarianMenu()[3] + "\n");
+                    System.out.println("Insert ISBN of the book:");
+                    //todo sa specific cate carti sa se stearga
+                    librarian.deleteOneCopyOfBook(typedByUser(console));
                     break;
                 case 4:
-                    System.out.println("You chose to " + menu.getAdminMenu()[4] + "\n");
+                    //display the details for all the books
+                    System.out.println("You chose to " + menu.getLibrarianMenu()[4] + "\n");
+                    librarian.displayAllBooksDetails();
                     break;
                 case 5:
-                    System.out.println("You chose to " + menu.getAdminMenu()[5] + "\n");
+                    //display the book details base on ISBN
+                    System.out.println("You chose to " + menu.getLibrarianMenu()[5] + "\n");
+                    System.out.println("Insert ISBN of the book:");
+                    librarian.displayBookDetails(typedByUser(console));
                     break;
                 case 6:
-                    System.out.println("You chose to " + menu.getAdminMenu()[6] + "\n");
+                    //display all the books borrowed by a student
+                    System.out.println("You chose to " + menu.getLibrarianMenu()[6] + "\n");
+                    // todo trebuie sa vad cum pasez diferiti studenti
+                    librarian.displayBooksBorrowedByUser(student);
                     break;
+
                 case 7:
-                    System.out.println("You chose to " + menu.getAdminMenu()[7] + "\n");
-                    break;
-                case 8:
-                    System.out.println("You chose to " + menu.getAdminMenu()[8] + "\n");
+                    //help
+                    System.out.println("You chose to " + menu.getLibrarianMenu()[8] + "\n");
                     break;
                 default:
+                    //error
                     System.out.println("Unexpected chose, please try again from 0 to " +
-                            (menu.getAdminMenu().length - 1) + " or type 0 to exit");
+                            (menu.getLibrarianMenu().length - 1) + " or type 0 to exit");
                     break;
 
             }
 
 
             previousChose = choice;
-            System.out.println("Type " + previousChose + " to redo the action" +
+            System.out.println("\nType " + previousChose + " to redo the action" +
                     ", type 0 to exit from librarian manu" +
                     "  or type any other key to return to the manu!\n");
-            String debugS=typedByUser(console);
+            debugS = typedByUser(console);
             choice = Integer.parseInt(debugS);
 
             if (choice == previousChose) {
                 redoAction = true;
+            } else {
+                redoAction = false;
             }
         } while (choice != 0);
 
     }
 
-    public static void actionsByStudent(Menu menu, Scanner console) {
+    public static void actionsByStudent(Student student, Menu menu, Scanner console) {
 
-        int choice = 7;
+        int choice = 6;
         int previousChose;
         boolean redoAction = false;
 
         do {
             if (!redoAction) {
-                displayMenu(menu.getTypeIn(), menu.getAdminMenu());
+                displayMenu(menu.getTypeIn(), menu.getStudentMenu());
                 System.out.println("\nYour chose is:");
                 choice = Integer.parseInt(typedByUser(console));
             }
@@ -168,67 +180,77 @@ public class Main {
 
             switch (choice) {
                 case 1:
-                    System.out.println("You chose to " + menu.getUserMenu()[1] + "\n");
+                    //check if a book is available to borrow base on ISBN
+                    System.out.println("You chose to " + menu.getStudentMenu()[1] + "\n");
+                    System.out.println("Insert ISBN of the book:");
+                    student.isTheBookAvailableToBorrow(typedByUser(console));
                     break;
                 case 2:
-                    System.out.println("You chose to " + menu.getUserMenu()[2] + "\n");
+                    //display all available books to borrow
+                    System.out.println("You chose to " + menu.getStudentMenu()[2] + "\n");
+                    student.showAllAvailableBooks();
                     break;
                 case 3:
-                    System.out.println("You chose to " + menu.getUserMenu()[3] + "\n");
+                    //borrow a book base on ISBN
+                    System.out.println("You chose to " + menu.getStudentMenu()[3] + "\n");
+                    System.out.println("Insert ISBN of the book:");
+                    student.borrowBook(typedByUser(console));
                     break;
                 case 4:
-                    System.out.println("You chose to " + menu.getUserMenu()[4] + "\n");
+                    //return a book base on ISBN
+                    System.out.println("You chose to " + menu.getStudentMenu()[4] + "\n");
+                    System.out.println("Insert ISBN of the book:");
+                    student.returnBook(typedByUser(console));
                     break;
                 case 5:
-                    System.out.println("You chose to " + menu.getUserMenu()[5] + "\n");
-                    break;
-                case 6:
-                    System.out.println("You chose to " + menu.getUserMenu()[6] + "\n");
-                    break;
-                case 7:
-                    System.out.println("You chose to " + menu.getUserMenu()[7] + "\n");
+                    //help
+                    System.out.println("You chose to " + menu.getStudentMenu()[5] + "\n");
                     break;
                 default:
                     System.out.println("Unexpected chose, please try again from 0 to " +
-                            (menu.getUserMenu().length - 1) + " or type 0 to exit");
+                            (menu.getStudentMenu().length - 1) + " or type 0 to exit");
                     break;
 
             }
 
 
             previousChose = choice;
-            System.out.println("Type " + previousChose + " to redo the action" +
+            System.out.println("\nType " + previousChose + " to redo the action" +
                     ", type 0 to exit from student manu" +
                     "  or type any other key to return to the manu!\n");
             choice = Integer.parseInt(typedByUser(console));
             if (choice == previousChose) {
                 redoAction = true;
+            } else {
+                redoAction = false;
             }
+
         } while (choice != 0);
 
     }
 
-    public static void debugApp() {
+    public static void debugApp(Librarian librarian, Student student) {
         //Debug
-        /*
+
         //admin.displayBookDetails("B103");
 
 
-        student.showAllAvailableBooks();
+        //student.showAllAvailableBooks();
         student.borrowBook("B101");
         student.borrowBook("B101");
-        student.borrowBook("B101");
+        student.borrowBook("B103");
         student.borrowBook("B102");
+        /*
         student.showAllAvailableBooks();
         System.out.println("\n Books borrowed");
         student.displayBorrowedBooks();
+
         student.returnBook("B101");
         student.returnBook("B102");
         student.showAllAvailableBooks();
         System.out.println("\n Books borrowed");
-        admin.displayBooksBorrowedByUser(student);
+        librarian.displayBooksBorrowedByUser(student);
         student.isTheBookAvailableToBorrow("B101");
-
 */
         /*
         student.borrowBook("B101");
@@ -253,7 +275,7 @@ public class Main {
         System.out.println(library.getAllBooks()[2]);*/
     }
 
-    public static Book[] initializateLibrary(Book[] books) {
+    public static Book[] initializeLibrary(Book[] books) {
 
         books[0] = new Book("Book1", "Author1", "B100", 3, 0);
         books[1] = new Book("Book2", "Author2", "B101", 4, 1);

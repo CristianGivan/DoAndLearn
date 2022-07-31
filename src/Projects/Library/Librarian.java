@@ -43,7 +43,8 @@ public class Librarian extends User {
     public void displayAllBooksDetails() {
         library.printAllBooks();
     }
-    public void displayBooksBorrowedByUser(Student student){
+
+    public void displayBooksBorrowedByUser(Student student) {
         student.displayBorrowedBooks();
     }
 

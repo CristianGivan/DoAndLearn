@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="working on Menu" />
+    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="fara err">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Concept.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Concept.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Menu.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,20 +35,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/crist_7j0v53l/OneDrive/Java/Projects/Old/JavaCurs2022/src/CursOld",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/crist_7j0v53l/OneDrive/Java/Projects/Old/JavaCurs2022/src/CursOld&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Projects" />
@@ -146,6 +152,7 @@
       <workItem from="1659212339243" duration="36000" />
       <workItem from="1659240817759" duration="9467000" />
       <workItem from="1659253310395" duration="24082000" />
+      <workItem from="1659279316448" duration="3969000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658565289500</created>
@@ -252,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659279283092</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="error console">
+      <created>1659279610440</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659279610440</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +297,9 @@
     <MESSAGE value="start libray" />
     <MESSAGE value="working on library" />
     <MESSAGE value="working on Menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on Menu" />
+    <MESSAGE value="error console" />
+    <MESSAGE value="fara err" />
+    <option name="LAST_COMMIT_MESSAGE" value="fara err" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -310,8 +326,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Projects/Library/Main.java</url>
-          <line>145</line>
-          <option name="timeStamp" value="22" />
+          <line>156</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Projects/Library/Main.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
