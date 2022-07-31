@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class CsvReader {
     public static void main(String[] args) {
-        File file = new File("src/Curs/C220726/sensor_data.csv");
+        File file = new File("Products/Curs/C220726/sensor_data.csv");
         Scanner scanner= null;
         try {
             scanner = new Scanner(file);

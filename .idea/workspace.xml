@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="working on library">
-      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Concept.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Concept.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="working on Menu" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +44,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="src" />
+      <recent name="Curs" />
       <recent name="Learn" />
       <recent name="Teme" />
     </key>
@@ -150,7 +144,7 @@
       <workItem from="1659190576028" duration="18401000" />
       <workItem from="1659212339243" duration="36000" />
       <workItem from="1659240817759" duration="9467000" />
-      <workItem from="1659253310395" duration="5552000" />
+      <workItem from="1659253310395" duration="6008000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658565289500</created>
@@ -243,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659212116425</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="working on Menu">
+      <created>1659259185497</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659259185497</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +274,8 @@
     <MESSAGE value="Overloading" />
     <MESSAGE value="start libray" />
     <MESSAGE value="working on library" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on library" />
+    <MESSAGE value="working on Menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on Menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
