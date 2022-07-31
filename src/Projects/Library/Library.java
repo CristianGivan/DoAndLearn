@@ -81,15 +81,17 @@ public class Library {
         int index = indexFindByIsbn(isbn);
         System.out.println(allBooks[index].toString());
     }
-//todo
-    public void displayListOfBooks(String[] bookList){
+
+
+    public void displayListOfBooks(String[] bookList) {
         int index;
-        for (int i=0; i<bookList.length;i++){
+        for (int i = 0; i < bookList.length; i++) {
             index = indexFindByIsbn(bookList[i]);
             System.out.println(allBooks[index].toString());
         }
 
     }
+
     public void printAllBooks() {
         for (int i = 0; i < numberOfBooks; i++) {
             System.out.println(this.allBooks[i].toString());
@@ -97,44 +99,46 @@ public class Library {
         }
     }
 
-
-/////////////////////////
-
-
-    public Book[] findBooksByUser(User user) {
-
-        int numberOfCopies = 1;
-        Book[] books = new Book[numberOfCopies];
-
-
-        return books;
+    // ToDo ar trebui sa vad daca folosesc boolean sau folsoesc exceptii cartea nu a fost gasit
+    //nu sunt copi destule
+    public boolean isTheBookAvailableToBorrow(String isbn) {
+        int index = indexFindByIsbn(isbn);
+        if (allBooks[index].getNumberOfCopies() > allBooks[index].getNumberOfBooksBorrowed()) {
+            return true;
+        }
+        return false;
     }
 
     public Book[] findAllAvailableBooks() {
 
-        int numberOfCopies = 1;
-        Book[] books = new Book[numberOfCopies];
+        int index = 0;
+        Book[] booksWithNull = new Book[numberOfBooks];
+        for (int i = 0; i < numberOfBooks; i++) {
+            if (allBooks[i].getNumberOfCopies() > allBooks[i].getNumberOfBooksBorrowed()) {
+                booksWithNull[index] = allBooks[i];
+                index++;
+            }
+        }
 
+        Book[] books = new Book[index];
+
+        for (int i = 0; i < index; i++) {
+            books[i] = booksWithNull[i];
+        }
 
         return books;
     }
 
-    //specifies where to search and what search
-    // if the book is not find return null
-    public Book findBookBy(String searchWhere, String searchWhat) {
-
-        Book book = null;
-
-
-        return book;
+    public Book borrowBook(String isbn) {
+        int index = indexFindByIsbn(isbn);
+        allBooks[index].setNumberOfBooksBorrowed(allBooks[index].getNumberOfBooksBorrowed() + 1);
+        return allBooks[index];
     }
 
-    public void borrowBook(String ISBN, User user) {
-
-    }
-
-    public void returnBook(String ISBN, User user) {
-
+    public Book returnBook(String isbn) {
+        int index = indexFindByIsbn(isbn);
+        allBooks[index].setNumberOfBooksBorrowed(allBooks[index].getNumberOfBooksBorrowed() - 1);
+        return allBooks[index];
     }
 
 }

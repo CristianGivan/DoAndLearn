@@ -43,6 +43,9 @@ public class Admin extends User {
     public void displayAllBooksDetails() {
         library.printAllBooks();
     }
+    public void displayBooksBorrowedByUser(Client student){
+        student.displayBorrowedBooks();
+    }
 
 
 }

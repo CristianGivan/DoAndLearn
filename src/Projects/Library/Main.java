@@ -3,20 +3,53 @@ package Projects.Library;
 public class Main {
     public static void main(String[] args) {
         final int MAXIM_BOOKS_IN_LIBRARY = 100;
-
         Book[] books = new Book[MAXIM_BOOKS_IN_LIBRARY];
         books = initializateLibrary(books);
         Library library = new Library(books);
+        Menu menu=new Menu();
         Admin admin = new Admin("Bibliotecar1", library);
         Client student = new Client("Student1", library);
         Book newBook = new Book("New Book", "Old Author", "B105", 5, 6);
-        admin.addBook(newBook);
-        admin.displayAllBooksDetails();
-        System.out.println("\n");
-        admin.displayBookDetails("B103");
+        //admin.addBook(newBook);
+        //admin.displayAllBooksDetails();
+        //System.out.println("\n");
+        menu.displayLogInMenu();
+do {
+    selectedInMenu();
+}while (selectedInMenu()==0);
+
+
+
+
 
         //Debug
-       /*
+        /*
+        //admin.displayBookDetails("B103");
+
+
+        student.showAllAvailableBooks();
+        student.borrowBook("B101");
+        student.borrowBook("B101");
+        student.borrowBook("B101");
+        student.borrowBook("B102");
+        student.showAllAvailableBooks();
+        System.out.println("\n Books borrowed");
+        student.displayBorrowedBooks();
+        student.returnBook("B101");
+        student.returnBook("B102");
+        student.showAllAvailableBooks();
+        System.out.println("\n Books borrowed");
+        admin.displayBooksBorrowedByUser(student);
+        student.isTheBookAvailableToBorrow("B101");
+
+*/
+        /*
+        student.borrowBook("B101");
+        student.showAllAvailableBooks();
+        student.borrowBook("B101");
+        student.showAllAvailableBooks();
+*/
+        /*
         admin.deleteBook("B102");
         admin.displayAllBooksDetails();
         System.out.println("\n");
@@ -35,6 +68,11 @@ public class Main {
 
     }
 
+    public static int selectedInMenu(){
+
+        return -1;
+
+    }
     public static Book[] initializateLibrary(Book[] books) {
 
         books[0] = new Book("Book1", "Author1", "B100", 3, 0);

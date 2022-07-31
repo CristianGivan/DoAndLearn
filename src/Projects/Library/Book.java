@@ -7,7 +7,7 @@ public class Book {
     private String isbn;
     private int numberOfCopies;
     private int numberOfBooksBorrowed;
-    //private String[] borrowersNames; // in case is needed to have the lest 100 users that borrowed the book
+    //private String[][] borrowersNames; //[numele celui care a imprumutato][statusul imrumutata sau restituita] in case is needed to have the lest 100 users that borrowed the book
 
     public Book(String name, String author, String isbn, int numberOfCopies, int numberOfBooksBorrowed){
         this.name=name;
