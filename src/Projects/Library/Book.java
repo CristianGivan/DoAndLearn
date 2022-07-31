@@ -1,5 +1,7 @@
 package Projects.Library;
 
+import java.util.Scanner;
+
 public class Book {
 
     private String name;
@@ -9,12 +11,24 @@ public class Book {
     private int numberOfBooksBorrowed;
     //private String[][] borrowersNames; //[numele celui care a imprumutato][statusul imrumutata sau restituita] in case is needed to have the lest 100 users that borrowed the book
 
-    public Book(String name, String author, String isbn, int numberOfCopies, int numberOfBooksBorrowed){
-        this.name=name;
-        this.author=author;
-        this.isbn=isbn;
-        this.numberOfCopies=numberOfCopies;
-        this.numberOfBooksBorrowed=numberOfBooksBorrowed;
+    public Book(String name, String author, String isbn, int numberOfCopies, int numberOfBooksBorrowed) {
+        this.name = name;
+        this.author = author;
+        this.isbn = isbn;
+        this.numberOfCopies = numberOfCopies;
+        this.numberOfBooksBorrowed = numberOfBooksBorrowed;
+    }
+
+    public Book(Scanner console) {
+        System.out.println("Insert the name of the book: ");
+        this.name = console.nextLine();
+        System.out.println("Insert the author of the book: ");
+        this.author = console.nextLine();
+        System.out.println("Insert the ISBN of the book: ");
+        this.isbn = console.nextLine();
+        System.out.println("Insert the number of copies for the book: ");
+        this.numberOfCopies = console.nextInt();
+        this.numberOfBooksBorrowed = 0;
     }
 
     @Override
@@ -70,7 +84,7 @@ public class Book {
 ///////////////////////////////////
 
 
-     public void borrowBook(String ISBN) {
+    public void borrowBook(String ISBN) {
 
     }
 

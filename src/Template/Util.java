@@ -27,5 +27,10 @@ public class Util {
         }
         System.out.println("'" + s + "' to binary: " + binary);
     }
+
+    ///// INT
+
+    int selectedInMenu = Integer.parseInt("25");
+
 }
 

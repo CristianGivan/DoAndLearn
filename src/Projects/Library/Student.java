@@ -1,13 +1,11 @@
 package Projects.Library;
 
-import java.security.PublicKey;
-
-public class Client extends User {
+public class Student extends User {
     private Library library;
     private Book[] borrowedBooks;
     private int numberOfUserBorrowedBooks;
 
-    public Client(String name, Library library) {
+    public Student(String name, Library library) {
         super(name);
         this.library = library;
         numberOfUserBorrowedBooks = 0;

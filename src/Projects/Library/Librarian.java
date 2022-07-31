@@ -1,10 +1,10 @@
 package Projects.Library;
 
-public class Admin extends User {
+public class Librarian extends User {
 
     private Library library;
 
-    public Admin(String name, Library library) {
+    public Librarian(String name, Library library) {
         super(name);
         this.library = library;
     }
@@ -43,7 +43,7 @@ public class Admin extends User {
     public void displayAllBooksDetails() {
         library.printAllBooks();
     }
-    public void displayBooksBorrowedByUser(Client student){
+    public void displayBooksBorrowedByUser(Student student){
         student.displayBorrowedBooks();
     }
 

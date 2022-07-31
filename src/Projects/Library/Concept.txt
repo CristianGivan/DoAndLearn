@@ -21,5 +21,10 @@ Ar trebui sa fac meniu care sa fie menu si developerMenu care extinde meniu
     obtiunile in functie de ce am selectat
 3 Sa pot sa imi aleg o obtiune si sa ma intrebe daca chiar doresc sa fac acea operatie
 
+Neclaritati:
+A trebuit sa folosesc sub clasele lirarian si stundet in loc sa foloses user pentru ca am
+am definit student si librarrian pentru ca ...
+
 Concluzii
 - a fost foarte greu dupa ce am terminat aplicati cu o clasa Book sa impart aceasta aplicatie in 2
+
