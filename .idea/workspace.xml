@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="fara err">
+    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="Final funcional">
+      <change afterPath="$PROJECT_DIR$/src/Curs/ExceptionOOP/CalculatorNou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Curs/ExceptionOOP/ClalculatoClientNou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Curs/ExceptionOOP/Competition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Curs/ExceptionOOP/InvalidEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Curs/ExceptionOOP/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Curs/ExceptionOOP/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Curs/ExceptionOOP/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Projects/Library/Concept.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Concept.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +65,13 @@
       <recent name="Learn.Developer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Projects.Library.Main">
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Learn.Game.Game" />
+  <component name="RunManager" selected="Application.Competition">
+    <configuration name="CalculatorNou" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Curs.ExceptionOOP.CalculatorNou" />
       <module name="DoAndLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Learn.Game.*" />
+          <option name="PATTERN" value="Curs.ExceptionOOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +79,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Learn.Geometry.Canvas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Learn.Geometry.Canvas" />
+    <configuration name="Competition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Curs.ExceptionOOP.Competition" />
       <module name="DoAndLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Learn.Geometry.*" />
+          <option name="PATTERN" value="Curs.ExceptionOOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Curs.ExceptionOOP.ClalculatoClientNou" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Curs.ExceptionOOP.ClalculatoClientNou" />
+      <module name="DoAndLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Curs.ExceptionOOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,19 +111,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Learn.OverloadingAnimals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Projects.Shelter.Main" />
-      <module name="DoAndLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Projects.Shelter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,10 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Competition" />
+        <item itemvalue="Application.Curs.ExceptionOOP.ClalculatoClientNou" />
+        <item itemvalue="Application.Curs.ExceptionOOP.CalculatorNou" />
         <item itemvalue="Application.Projects.Library.Main" />
         <item itemvalue="Application.Learn.OverloadingAnimals.Main" />
-        <item itemvalue="Application.Game" />
-        <item itemvalue="Application.Learn.Geometry.Canvas" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +157,7 @@
       <workItem from="1659212339243" duration="36000" />
       <workItem from="1659240817759" duration="9467000" />
       <workItem from="1659253310395" duration="24082000" />
-      <workItem from="1659279316448" duration="3969000" />
+      <workItem from="1659279316448" duration="14271000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658565289500</created>
@@ -266,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659279610440</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Final funcional">
+      <created>1659283795533</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1659283795534</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +311,8 @@
     <MESSAGE value="working on Menu" />
     <MESSAGE value="error console" />
     <MESSAGE value="fara err" />
-    <option name="LAST_COMMIT_MESSAGE" value="fara err" />
+    <MESSAGE value="Final funcional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final funcional" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -326,13 +339,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Projects/Library/Main.java</url>
-          <line>156</line>
+          <line>154</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Projects/Library/Main.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="24" />
+          <url>file://$PROJECT_DIR$/src/Curs/ExceptionOOP/Competition.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
