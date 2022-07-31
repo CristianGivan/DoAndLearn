@@ -144,6 +144,7 @@ public class Main {
                     "  or type any other key to return to the manu!\n");
             String debugS=typedByUser(console);
             choice = Integer.parseInt(debugS);
+
             if (choice == previousChose) {
                 redoAction = true;
             }
