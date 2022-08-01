@@ -1,5 +1,8 @@
 package Projects.Library;
 
+import Projects.Library.Exceptions.BookNoInsertedCorrect;
+import Projects.Library.Exceptions.NoMoreSpaceToAddBooks;
+
 public class Librarian extends User {
 
     private Library library;
@@ -17,7 +20,7 @@ public class Librarian extends User {
         this.library = library;
     }
 
-    public void addBook(Book book) {
+    public void addBook (Book book) throws NoMoreSpaceToAddBooks, BookNoInsertedCorrect {
         //tratez exceptiile
 
         library.addBook(book);

@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="exceptions">
-      <change afterPath="$PROJECT_DIR$/src/Curs/ExceptionOOP/text1.java" afterDir="false" />
+    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="resolved the delete book from array">
+      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Exceptions/BookNoInsertedCorrect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Exceptions/NoMoreSpaceToAddBooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Template/Algorithms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Curs/ExceptionOOP/Competition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Curs/ExceptionOOP/Competition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Curs/ExceptionOOP/InvalidEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Curs/ExceptionOOP/Exceptions/InvalidEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Curs/ExceptionOOP/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Curs/ExceptionOOP/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Concept.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Documentation/Concept.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Librarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Request.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Documentation/Request.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,65 +42,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/crist_7j0v53l/OneDrive/Java/Projects/Old/JavaCurs2022/src/CursOld&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/crist_7j0v53l/OneDrive/Java/Curs_JustCodeIT_2022/DoAndLearn/src/Projects/Library/Documentation",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\crist_7j0v53l\OneDrive\Java\Curs_JustCodeIT_2022\DoAndLearn\src\Projects\Library\Documentation" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Curs.ExceptionOOP.Exceptions" />
       <recent name="Projects" />
       <recent name="" />
       <recent name="src" />
       <recent name="Curs" />
-      <recent name="Learn" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Learn.Developer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Competition">
-    <configuration name="CalculatorNou" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Curs.ExceptionOOP.CalculatorNou" />
-      <module name="DoAndLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Curs.ExceptionOOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Competition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Curs.ExceptionOOP.Competition" />
-      <module name="DoAndLearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Curs.ExceptionOOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Curs.ExceptionOOP.ClalculatoClientNou" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Projects.Library.Main">
+    <configuration name="ClalculatoClientNou" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Curs.ExceptionOOP.ClalculatoClientNou" />
       <module name="DoAndLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Curs.ExceptionOOP.*" />
+          <option name="PATTERN" value="Curs.ExceptionOOP.Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Curs.ExceptionOOP.CalculatorNou" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Curs.ExceptionOOP.CalculatorNou" />
+      <module name="DoAndLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Curs.ExceptionOOP.Exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Curs.ExceptionOOP.Competition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Curs.ExceptionOOP.Competition" />
+      <module name="DoAndLearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Curs.ExceptionOOP.Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,10 +139,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Competition" />
+        <item itemvalue="Application.Projects.Library.Main" />
+        <item itemvalue="Application.Curs.ExceptionOOP.Competition" />
         <item itemvalue="Application.Curs.ExceptionOOP.ClalculatoClientNou" />
         <item itemvalue="Application.Curs.ExceptionOOP.CalculatorNou" />
-        <item itemvalue="Application.Projects.Library.Main" />
         <item itemvalue="Application.Learn.OverloadingAnimals.Main" />
       </list>
     </recent_temporary>
@@ -150,7 +163,7 @@
       <workItem from="1659212339243" duration="36000" />
       <workItem from="1659240817759" duration="9467000" />
       <workItem from="1659253310395" duration="24082000" />
-      <workItem from="1659279316448" duration="16269000" />
+      <workItem from="1659279316448" duration="32745000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658565289500</created>
@@ -278,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659295942362</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="exceptions">
+      <created>1659299591799</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659299591799</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +333,8 @@
     <MESSAGE value="fara err" />
     <MESSAGE value="Final funcional" />
     <MESSAGE value="exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="exceptions" />
+    <MESSAGE value="resolved the delete book from array" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolved the delete book from array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -340,13 +361,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Projects/Library/Main.java</url>
-          <line>154</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Curs/ExceptionOOP/Competition.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="26" />
+          <line>79</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

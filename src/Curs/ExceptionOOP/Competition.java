@@ -1,5 +1,7 @@
 package Curs.ExceptionOOP;
 
+import Curs.ExceptionOOP.Exceptions.InvalidEmail;
+
 public class Competition {
     public static void main(String[] args) {
 

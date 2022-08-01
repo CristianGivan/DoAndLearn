@@ -1,43 +1,61 @@
 package Projects.Library;
 
+import Projects.Library.Exceptions.BookNoInsertedCorrect;
+import Projects.Library.Exceptions.BookNotAvailable;
+import Projects.Library.Exceptions.NoMoreSpaceToAddBooks;
+
 public class Library {
     private Book[] allBooks;
     private int numberOfBooks;
 
     public Library(Book[] allBooks) {
         this.allBooks = allBooks;
-        for (int i = 0; i < allBooks.length; i++) {
-            if (allBooks[i] != null) {
-                numberOfBooks = i + 1;
-            }
-        }
-
-    }
-
-    public void setAllBooks(Book[] allBooks) {
-        this.allBooks = allBooks;
+        numberOfBooks = countNumberOfElementsNotNullFromArray(allBooks);
     }
 
     public Book[] getAllBooks() {
         return this.allBooks;
     }
 
+    public void addBook(Book book) throws NoMoreSpaceToAddBooks, BookNoInsertedCorrect {
 
-    public void addBook(Book book) {
-        //exceptie sa nu se depaseasca numar maxim de arrayuri
+        if (numberOfBooks == allBooks.length) {
+            throw new NoMoreSpaceToAddBooks("You have reached the maximum space in library, " +
+                    "you cannor add more books!");
+        }
+        if (book.getName().equals("")) {
+            throw new BookNoInsertedCorrect("The book has no title inserted");
+        }
+        if (book.getAuthor().equals("")) {
+            throw new BookNoInsertedCorrect("The book has no author inserted");
+        }
+        if (book.getIsbn().equals("")) {
+            throw new BookNoInsertedCorrect("The book has no ISBN inserted");
+        }
+        if (book.getNumberOfCopies() <= 0) {
+            throw new BookNoInsertedCorrect("The book cannot have the number of copies smallest then 1");
+        }
+        if (book.getNumberOfBooksBorrowed() < 0) {
+            throw new BookNoInsertedCorrect("The book cannot have the number of borrowed copies " +
+                    "smallest then 0");
+        }
+        if (book.getNumberOfCopies() <= book.getNumberOfBooksBorrowed()) {
+            throw new BookNoInsertedCorrect("The book cannot have the number of borrowed copies " +
+                    "more then the number of copies");
+        }
         allBooks[numberOfBooks] = book;
         numberOfBooks++;
     }
 
     public void deleteBook(String isbn) {
-        // exceptie daca nu sunt carti in lista de sters
+        // Exception no book in found
         int index = indexFindByIsbn(isbn);
         deleteBookAtIndex(index);
 
     }
 
     public void deleteCopyOfBook(String isbn) {
-        // exceptie daca nu sunt suficiente copi sau toate copiile sunt imprumutate
+        // Exception there are no books  available to ve delete or all the books are borrowed
         int index = indexFindByIsbn(isbn);
         deleteCopyOfBookAtIndex(index);
 
@@ -47,9 +65,6 @@ public class Library {
         int index = indexFindByIsbn(isbn);
         deleteCopyOfBookAtIndex(index, numberOfCopiesToDelete);
     }
-
-
-//privat pentru ca nu cred ca o sa folosesc vreodata dinafara si sa nu incurce
 
     private int indexFindByIsbn(String isbn) {
         for (int i = 0; i < numberOfBooks; i++) {
@@ -61,8 +76,9 @@ public class Library {
     }
 
     private void deleteBookAtIndex(int index) {
-        for (int i = index; i < numberOfBooks; i++) {
-            allBooks[i] = allBooks[i + 1];
+        System.out.println(index);
+        for (int i = index + 1; i < numberOfBooks; i++) {
+            allBooks[i - 1] = allBooks[i];
         }
         numberOfBooks--;
     }
@@ -99,18 +115,17 @@ public class Library {
         }
     }
 
-    // ToDo ar trebui sa vad daca folosesc boolean sau folsoesc exceptii cartea nu a fost gasit
-    //nu sunt copi destule
-    public boolean isTheBookAvailableToBorrow(String isbn) {
+    // ToDo ? create exception or use if
+    public boolean isTheBookAvailableToBorrow(String isbn) /*throws BookNotAvailable*/ {
         int index = indexFindByIsbn(isbn);
-        if (allBooks[index].getNumberOfCopies() > allBooks[index].getNumberOfBooksBorrowed()) {
-            return true;
+        if (allBooks[index].getNumberOfCopies() <= allBooks[index].getNumberOfBooksBorrowed()) {
+            return false;
+            //throw new BookNotAvailable ("All books are borrowed");
         }
-        return false;
+        return true;
     }
 
     public Book[] findAllAvailableBooks() {
-
         int index = 0;
         Book[] booksWithNull = new Book[numberOfBooks];
         for (int i = 0; i < numberOfBooks; i++) {
@@ -119,13 +134,10 @@ public class Library {
                 index++;
             }
         }
-
         Book[] books = new Book[index];
-
         for (int i = 0; i < index; i++) {
             books[i] = booksWithNull[i];
         }
-
         return books;
     }
 
@@ -141,4 +153,13 @@ public class Library {
         return allBooks[index];
     }
 
+    public static int countNumberOfElementsNotNullFromArray(Object[] objects) {
+        int numberOfElementsNotNull = 0;
+        for (int i = 0; i < objects.length; i++) {
+            if (objects[i] != null) {
+                numberOfElementsNotNull = i + 1;
+            }
+        }
+        return numberOfElementsNotNull;
+    }
 }

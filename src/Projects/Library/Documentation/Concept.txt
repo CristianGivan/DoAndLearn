@@ -14,20 +14,32 @@ ToDo general
 
 
 ToDO Meniu
-Ar trebui sa fac meniu care sa fie menu si developerMenu care extinde meniu
-- peste tot ar trebui sa am si obtiunea help pentru a afisa mai multe detalii despre obtiunile meniului
+High:
++ Cand dau 0 imi apar prostii
 
-1. Sa imi apara un meniu in care aleg sa ma logez sau sa ma inregistrez
-2 Dupa ce am ales ce vreu sa fac sa imi apara un meniu in care sa ma salute si sa imi arata
+Low:
++Ar trebui sa fac meniu care sa fie menu si developerMenu care extinde meniu
++ peste tot ar trebui sa am si obtiunea help pentru a afisa mai multe detalii despre obtiunile meniului
+
+Done:
+- Sa imi apara un meniu in care aleg sa ma logez sau sa ma inregistrez
+- Dupa ce am ales ce vreu sa fac sa imi apara un meniu in care sa ma salute si sa imi arata
     obtiunile in functie de ce am selectat
-3 Sa pot sa imi aleg o obtiune si sa ma intrebe daca chiar doresc sa fac acea operatie
+- Sa pot sa imi aleg o obtiune si sa ma intrebe daca chiar doresc sa fac acea operatie
+
+
 
 Neclaritati:
+High:
+- cum imi impart book in doua
+- commiturile cu err la err console are legatura cu closeconnection?
+
+Low:
 -A trebuit sa folosesc sub clasele lirarian si stundet in loc sa foloses user pentru ca am
 am definit student si librarrian pentru ca ...
-- cum imi impart book in doua
+
+Done:
 - tratarea exceptiilor
-- commiturile cu err la err console are legatura cu close?
 
 
 Concluzii

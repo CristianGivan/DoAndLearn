@@ -1,5 +1,7 @@
 package Curs.ExceptionOOP;
 
+import Curs.ExceptionOOP.Exceptions.InvalidEmail;
+
 public class Student {
     private String emailAddress;
     private String studentName;
@@ -9,7 +11,7 @@ public class Student {
         return emailAddress;
     }
 
-    public void setEmailAddress(String emailAddress) throws InvalidEmail{
+    public void setEmailAddress(String emailAddress) throws InvalidEmail {
         if(!emailAddress.contains("@")){
             throw new InvalidEmail("nu are @");
         }
