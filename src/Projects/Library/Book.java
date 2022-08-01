@@ -1,14 +1,15 @@
 package Projects.Library;
 
 import java.util.Scanner;
-
+//ToDO split the class book in 2 subclass to have number of copies...
 public class Book {
     private String name;
     private String author;
     private String isbn;
     private int numberOfCopies;
     private int numberOfBooksBorrowed;
-    //private String[][] borrowersNames; //[numele celui care a imprumutato][statusul imrumutata sau restituita] in case is needed to have the lest 100 users that borrowed the book
+    //private String[][] borrowersNames;
+    // [borrower name][status, borrowed or returned] in case is needed to have the lest 100 users that borrowed the book
 
     public Book(String name, String author, String isbn, int numberOfCopies, int numberOfBooksBorrowed) {
         this.name = name;

@@ -34,7 +34,7 @@ public class Student extends User {
         }
     }
 
-    //todo exceptie nu pot sa imprumut de doua ori acceas carte
+    //todo exception book already borrowed
     public void borrowBook(String isbn) {
         if (library.isTheBookAvailableToBorrow(isbn)) {
             borrowedBooks[numberOfUserBorrowedBooks] = library.borrowBook(isbn);
@@ -45,7 +45,7 @@ public class Student extends User {
         }
     }
 
-    // todo exceptie cartea nu este in lista de carti imprumutate
+    // todo Exception the book was not borrowed
     public void returnBook(String isbn) {
         if (indexOfBorrowedBooks(isbn) > -1) {
             deleteFromBorrowedBooks(isbn);
@@ -54,7 +54,7 @@ public class Student extends User {
         System.out.println("The book wasn't returned!");
     }
 
-    //ar merge o exceptie?
+
     public int indexOfBorrowedBooks(String isbn) {
         for (int i = 0; i < numberOfUserBorrowedBooks; i++) {
             if (borrowedBooks[i].getIsbn().equals(isbn)) {
@@ -72,7 +72,7 @@ public class Student extends User {
         numberOfUserBorrowedBooks--;
     }
 
-    //todo ar trebui sa imbunatesc iful
+    //todo can be done better?
     public void displayBorrowedBooks() {
         for (int i = 0; i < borrowedBooks.length; i++) {
             if (borrowedBooks[i] != null)
