@@ -1,12 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="Ar fi prima varianta finala la librarie">
-      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Exceptions/BookNoInsertedCorrect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Projects/Library/Exceptions/BookNotAvailable.java" afterDir="false" />
+    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="Start OnlineShop">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/Library/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/BankingApp/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P03_BankingApp/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/BankingApp/BankingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P03_BankingApp/BankingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/BankingApp/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P03_BankingApp/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/BankingApp/SpendingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P03_BankingApp/SpendingAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/BankingApp/StudentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P03_BankingApp/StudentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Library/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Documentation/Concept.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Library/Documentation/Concept.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Documentation/Request.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Library/Documentation/Request.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Exceptions/BookNoInsertedCorrect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Library/Exceptions/BookNoInsertedCorrect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Exceptions/BookNotAvailable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Library/Exceptions/BookNotAvailable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Exceptions/NoMoreSpaceToAddBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Library/Exceptions/NoMoreSpaceToAddBooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Library/Librarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Library/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Library/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Library/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Library/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Library/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Library/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Products/CalorieCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P01_Products/CalorieCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P01_Products/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Products/ProductCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P01_Products/ProductCatalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Products/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P01_Products/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Products/RandomWN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P01_Products/RandomWN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Products/TestRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P01_Products/TestRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Products/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P01_Products/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/School/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/School/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/School/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/School/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/School/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/School/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/School/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/School/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Shelter/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P02_Shelter/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Shelter/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P02_Shelter/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Shelter/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P02_Shelter/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Shelter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P02_Shelter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Projects/Shelter/Shelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P02_Shelter/Shelter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +56,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2CKxDV0G5sUUTJTMdCLg7KyWhO2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -54,17 +87,17 @@
       <recent name="C:\Users\crist_7j0v53l\OneDrive\Java\Curs_JustCodeIT_2022\DoAndLearn\src\Projects\Library\Documentation" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Learn" />
       <recent name="Curs.ExceptionOOP.Exceptions" />
       <recent name="Projects" />
       <recent name="" />
       <recent name="src" />
-      <recent name="Curs" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Learn.Developer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Projects.Library.Main">
+  <component name="RunManager" selected="Application.Projects.P04_Library.Main">
     <configuration name="ClalculatoClientNou" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Curs.ExceptionOOP.ClalculatoClientNou" />
       <module name="DoAndLearn" />
@@ -117,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Projects.Library.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Projects.Library.Main" />
+    <configuration name="Projects.P04_Library.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Projects.P04_Library.Main" />
       <module name="DoAndLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Projects.Library.*" />
+          <option name="PATTERN" value="Projects.P04_Library.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,7 +165,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Projects.Library.Main" />
+        <item itemvalue="Application.Projects.P04_Library.Main" />
         <item itemvalue="Application.Curs.ExceptionOOP.Competition" />
         <item itemvalue="Application.Curs.ExceptionOOP.ClalculatoClientNou" />
         <item itemvalue="Application.Curs.ExceptionOOP.CalculatorNou" />
@@ -156,7 +189,7 @@
       <workItem from="1659212339243" duration="36000" />
       <workItem from="1659240817759" duration="9467000" />
       <workItem from="1659253310395" duration="24082000" />
-      <workItem from="1659279316448" duration="35443000" />
+      <workItem from="1659279316448" duration="37530000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658565289500</created>
@@ -298,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659355176210</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="comentarii">
+      <created>1659356246316</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659356246316</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,13 +375,15 @@
     <MESSAGE value="exceptions" />
     <MESSAGE value="resolved the delete book from array" />
     <MESSAGE value="Ar fi prima varianta finala la librarie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ar fi prima varianta finala la librarie" />
+    <MESSAGE value="comentarii" />
+    <MESSAGE value="Start OnlineShop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start OnlineShop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Projects/Shelter/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/Projects/P02_Shelter/Main.java</url>
           <line>2</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -361,7 +403,7 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Projects/Library/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/Projects/P04_Library/Main.java</url>
           <line>79</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
