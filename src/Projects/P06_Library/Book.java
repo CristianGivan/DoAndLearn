@@ -1,4 +1,4 @@
-package Projects.P04_Library;
+package Projects.P06_Library;
 
 import java.util.Scanner;
 //ToDO split the class book in 2 subclass to have number of copies...
@@ -19,7 +19,8 @@ public class Book {
         this.numberOfBooksBorrowed = numberOfBooksBorrowed;
     }
 
-    public Book(Scanner console) {
+    public Book(Scanner console1) {
+        Scanner console = new Scanner(System.in);
         System.out.println("Insert the name of the book: ");
         this.name = console.nextLine();
         System.out.println("Insert the author of the book: ");

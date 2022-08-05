@@ -1,4 +1,4 @@
-package Projects.P03_BankingApp;
+package Projects.P05_BankingApp;
 
 public class BankingApp {
     public static void main(String[] args) {

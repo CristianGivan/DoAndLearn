@@ -1,4 +1,4 @@
-package Projects.P01_Products;/*
+package Projects.P03_Products;/*
 Cum ar trebui sa definit facem cu consola mai bine ar trebui sa o definim in obiect
 sau sa o pasam la obiect dim main
 */

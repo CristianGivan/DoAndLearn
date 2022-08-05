@@ -1,7 +1,7 @@
-package Projects.P04_Library;
+package Projects.P06_Library;
 
-import Projects.P04_Library.Exceptions.BookNoInsertedCorrect;
-import Projects.P04_Library.Exceptions.NoMoreSpaceToAddBooks;
+import Projects.P06_Library.Exceptions.BookNoInsertedCorrect;
+import Projects.P06_Library.Exceptions.NoMoreSpaceToAddBooks;
 
 import java.util.Scanner;
 
@@ -10,6 +10,7 @@ public class Main {
         Scanner console = new Scanner(System.in);
         int selectedInMenu;
 
+
         final int MAXIM_BOOKS_IN_LIBRARY = 7;
         Book[] books = new Book[MAXIM_BOOKS_IN_LIBRARY];
         books = initializeLibrary(books);
@@ -17,11 +18,11 @@ public class Main {
         Librarian librarian = new Librarian("Librarian1", library);
         Student student = new Student("Student1", library);
         Menu menu = new Menu();
-
+/*
         do {
             displayMenu(menu.getTypeIn(), menu.getLogIn());
             System.out.println("\nYour chose is:");
-            selectedInMenu = Integer.parseInt(typedByUser(console));
+            selectedInMenu = console.nextInt();
 
             switch (selectedInMenu) {
                 case 0:
@@ -48,9 +49,10 @@ public class Main {
 
 
         } while (selectedInMenu != 0);
+*/
 
         debugApp(librarian, student);
-        //actionByLibrarian(librarian, student, menu, console);
+        actionByLibrarian(librarian, student, menu, console);
         //actionsByStudent(student, menu, console);
     }
 
@@ -59,12 +61,13 @@ public class Main {
     }
 
     //todo a better way to try 3 times or to try at infinite to insert
+    /*
     public static void tryAgainToInsertBook(Librarian librarian, Book newBook, Scanner console) {
         int choice;
         System.out.println("What do you want to do? You can: \n");
         System.out.println("Type 0 to exit");
         System.out.println("Type 1 to insert again the book\n");
-        choice = Integer.parseInt(typedByUser(console));
+        choice = console.nextInt();
         switch (choice) {
             case 0:
                 break;
@@ -82,7 +85,7 @@ public class Main {
                     System.out.println("What do you want to do? You can: \n");
                     System.out.println("Type 0 to exit");
                     System.out.println("Type 1 to insert again the book\n");
-                    choice = Integer.parseInt(typedByUser(console));
+                    choice = Integer.parseInt(console.nextLine());
                     switch (choice) {
                         case 0:
                             break;
@@ -113,6 +116,49 @@ public class Main {
         }
     }
 
+*/
+
+    public static Book newBookByUser(Librarian librarian) throws NoMoreSpaceToAddBooks, BookNoInsertedCorrect {
+        String bookName;
+        String bookAuthor;
+        String bookISBN;
+        int bookNumberOfCopies;
+        Scanner console = new Scanner(System.in);
+        System.out.println("Insert the name of the book: ");
+        bookName = (console.nextLine());
+        System.out.println("Insert the author of the book: ");
+        bookAuthor = (console.nextLine());
+        System.out.println("Insert the ISBN of the book: ");
+        bookISBN = (console.nextLine());
+        System.out.println("Insert the number of copies for the book: ");
+        bookNumberOfCopies = (console.nextInt());
+        Book newBook = new Book(bookName, bookAuthor, bookISBN, bookNumberOfCopies, 0);
+        librarian.addBook(newBook);
+        return newBook;
+    }
+
+    public static void tryAgainToInsertBook(Librarian librarian, Book newBook, Scanner console) throws NoMoreSpaceToAddBooks, BookNoInsertedCorrect {
+        int choice;
+        System.out.println("What do you want to do? You can: \n");
+        System.out.println("Type 0 to exit");
+        System.out.println("Type 1 to insert again the book\n");
+        choice = console.nextInt();
+        switch (choice) {
+            case 0:
+                break;
+            case 1:
+                //newBook = new Book(console);
+                //newBook = new Book("", "Author1", "B109", 3, 0);
+                newBookByUser(librarian);
+                break;
+            default:
+                System.out.println("error!");
+                break;
+        }
+
+    }
+
+
     public static void displayMenu(String[] typeIn, String[] menu) {
         System.out.println("Select from 0 to " + (menu.length - 1) + " from the to options: \n");
         for (int i = 0; i < menu.length; i++) {
@@ -123,7 +169,7 @@ public class Main {
     public static void logIn(Librarian librarian, Student student, Menu menu, Scanner console) {
         String fromConsole;
         System.out.println("Log in with user name (librarian or student): ");
-        fromConsole = typedByUser(console);
+        fromConsole = console.nextLine();
         if (fromConsole.contains("lib")) {
             actionByLibrarian(librarian, student, menu, console);
 
@@ -149,7 +195,7 @@ public class Main {
                 displayMenu(menu.getTypeIn(), menu.getLibrarianMenu());
                 System.out.println("\nYour chose is:");
                 // todo a function to return only numbers
-                choice = Integer.parseInt(typedByUser(console));
+                choice = console.nextInt();
             }
 
 
@@ -157,7 +203,10 @@ public class Main {
                 case 1:
                     System.out.println("You chose to " + menu.getLibrarianMenu()[1] + "\n");
                     //Book newBook = new Book(console);
-                    Book newBook = new Book("", "Author1", "B109", 3, 0);
+                    //Book newBook = new Book("", "Author1", "B109", 3, 0);
+                    //librarian.addBook(newBookByUser());
+                    Book newBook = newBookByUser(librarian);
+
                     try {
                         librarian.addBook(newBook);
                         System.out.println(newBook.toString());
@@ -177,14 +226,14 @@ public class Main {
                     System.out.println("You chose to " + menu.getLibrarianMenu()[2] + "\n");
                     //todo display a list of all available isbn
                     System.out.println("Insert ISBN of the book:");
-                    librarian.deleteBook(typedByUser(console));
+                    librarian.deleteBook(console.nextLine());
                     break;
                 case 3:
                     //delete a copy of a book base on ISBN
                     System.out.println("You chose to " + menu.getLibrarianMenu()[3] + "\n");
                     System.out.println("Insert ISBN of the book:");
                     //todo could be used also the method with more copies deleted
-                    librarian.deleteOneCopyOfBook(typedByUser(console));
+                    librarian.deleteOneCopyOfBook(console.nextLine());
                     break;
                 case 4:
                     //display the details for all the books
@@ -195,7 +244,7 @@ public class Main {
                     //display the book details base on ISBN
                     System.out.println("You chose to " + menu.getLibrarianMenu()[5] + "\n");
                     System.out.println("Insert ISBN of the book:");
-                    librarian.displayBookDetails(typedByUser(console));
+                    librarian.displayBookDetails(console.nextLine());
                     break;
                 case 6:
                     //display all the books borrowed by a student
@@ -218,8 +267,7 @@ public class Main {
             System.out.println("\nType " + previousChose + " to redo the action" +
                     ", type 0 to exit from librarian manu" +
                     "  or type any other key to return to the manu!\n");
-            debugS = typedByUser(console);
-            choice = Integer.parseInt(debugS);
+            choice = console.nextInt();
 
             if (choice == previousChose) {
                 redoAction = true;
@@ -239,7 +287,7 @@ public class Main {
             if (!redoAction) {
                 displayMenu(menu.getTypeIn(), menu.getStudentMenu());
                 System.out.println("\nYour chose is:");
-                choice = Integer.parseInt(typedByUser(console));
+                choice = console.nextInt();
             }
 
             switch (choice) {
@@ -247,7 +295,7 @@ public class Main {
                     //check if a book is available to borrow base on ISBN
                     System.out.println("You chose to " + menu.getStudentMenu()[1] + "\n");
                     System.out.println("Insert ISBN of the book:");
-                    student.isTheBookAvailableToBorrow(typedByUser(console));
+                    student.isTheBookAvailableToBorrow(console.nextLine());
                     break;
                 case 2:
                     //display all available books to borrow
@@ -258,13 +306,13 @@ public class Main {
                     //borrow a book base on ISBN
                     System.out.println("You chose to " + menu.getStudentMenu()[3] + "\n");
                     System.out.println("Insert ISBN of the book:");
-                    student.borrowBook(typedByUser(console));
+                    student.borrowBook(console.nextLine());
                     break;
                 case 4:
                     //return a book base on ISBN
                     System.out.println("You chose to " + menu.getStudentMenu()[4] + "\n");
                     System.out.println("Insert ISBN of the book:");
-                    student.returnBook(typedByUser(console));
+                    student.returnBook(console.nextLine());
                     break;
                 case 5:
                     //help
@@ -280,7 +328,7 @@ public class Main {
             System.out.println("\nType " + previousChose + " to redo the action" +
                     ", type 0 to exit from student manu" +
                     "  or type any other key to return to the manu!\n");
-            choice = Integer.parseInt(typedByUser(console));
+            choice = console.nextInt();
             if (choice == previousChose) {
                 redoAction = true;
             } else {

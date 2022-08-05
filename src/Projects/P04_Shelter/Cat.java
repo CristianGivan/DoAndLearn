@@ -1,4 +1,4 @@
-package Projects.P02_Shelter;
+package Projects.P04_Shelter;
 
 public class Cat extends Animal{
 

@@ -1,4 +1,4 @@
-package Projects.P02_Shelter;
+package Projects.P04_Shelter;
 
 public class Main {
     public static void main(String[] args) {

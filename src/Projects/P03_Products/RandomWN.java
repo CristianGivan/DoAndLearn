@@ -1,4 +1,4 @@
-package Projects.P01_Products;
+package Projects.P03_Products;
 
 import java.util.Locale;
 

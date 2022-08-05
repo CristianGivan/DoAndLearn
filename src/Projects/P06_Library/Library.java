@@ -1,7 +1,7 @@
-package Projects.P04_Library;
+package Projects.P06_Library;
 
-import Projects.P04_Library.Exceptions.BookNoInsertedCorrect;
-import Projects.P04_Library.Exceptions.NoMoreSpaceToAddBooks;
+import Projects.P06_Library.Exceptions.BookNoInsertedCorrect;
+import Projects.P06_Library.Exceptions.NoMoreSpaceToAddBooks;
 
 public class Library {
     private Book[] allBooks;

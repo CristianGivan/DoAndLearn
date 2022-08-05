@@ -1,4 +1,4 @@
-package Projects.P04_Library.Exceptions;
+package Projects.P06_Library.Exceptions;
 
 public class BookNotAvailable extends Exception{
 
