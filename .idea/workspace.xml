@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="fara erroare">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P01_Products/CalorieCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P03_Products/CalorieCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P01_Products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P03_Products/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P01_Products/ProductCatalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P03_Products/ProductCatalog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P01_Products/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P03_Products/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P01_Products/RandomWN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P03_Products/RandomWN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P01_Products/TestRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P03_Products/TestRandom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P01_Products/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P03_Products/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P02_Shelter/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Shelter/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P02_Shelter/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Shelter/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P02_Shelter/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Shelter/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P02_Shelter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Shelter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P02_Shelter/Shelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P04_Shelter/Shelter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P03_BankingApp/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P05_BankingApp/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P03_BankingApp/BankingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P05_BankingApp/BankingApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P03_BankingApp/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P05_BankingApp/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P03_BankingApp/SpendingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P05_BankingApp/SpendingAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P03_BankingApp/StudentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P05_BankingApp/StudentAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P04_Library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P06_Library/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P04_Library/Documentation/Concept.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P06_Library/Documentation/Concept.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P04_Library/Documentation/Request.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P06_Library/Documentation/Request.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P04_Library/Exceptions/BookNoInsertedCorrect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P06_Library/Exceptions/BookNoInsertedCorrect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P04_Library/Exceptions/BookNotAvailable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P06_Library/Exceptions/BookNotAvailable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P04_Library/Exceptions/NoMoreSpaceToAddBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P06_Library/Exceptions/NoMoreSpaceToAddBooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P04_Library/Librarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P06_Library/Librarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P04_Library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P06_Library/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P04_Library/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P06_Library/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P04_Library/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P06_Library/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P04_Library/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P06_Library/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Projects/P04_Library/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Projects/P06_Library/User.java" afterDir="false" />
-    </list>
+    <list default="true" id="940023ee-4e88-4837-8cc9-20abd0b7aa3d" name="Changes" comment="Start OnlineShop" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +61,7 @@
       <recent name="Learn.Developer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Projects.P06_Library.Main">
+  <component name="RunManager" selected="Application.Projects.P04_Library.Main">
     <configuration name="ClalculatoClientNou" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Curs.ExceptionOOP.ClalculatoClientNou" />
       <module name="DoAndLearn" />
@@ -146,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Projects.P06_Library.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Projects.P06_Library.Main" />
+    <configuration name="Projects.P04_Library.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Projects.P04_Library.Main" />
       <module name="DoAndLearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Projects.P06_Library.*" />
+          <option name="PATTERN" value="Projects.P04_Library.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,7 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Projects.P06_Library.Main" />
+        <item itemvalue="Application.Projects.P04_Library.Main" />
         <item itemvalue="Application.Curs.ExceptionOOP.Competition" />
         <item itemvalue="Application.Curs.ExceptionOOP.CalculatorNou" />
         <item itemvalue="Application.Learn.OverloadingAnimals.Main" />
@@ -184,10 +152,7 @@
       <workItem from="1659212339243" duration="36000" />
       <workItem from="1659240817759" duration="9467000" />
       <workItem from="1659253310395" duration="24082000" />
-      <workItem from="1659279316448" duration="37647000" />
-      <workItem from="1659453276847" duration="600000" />
-      <workItem from="1659460189336" duration="603000" />
-      <workItem from="1659675355784" duration="4701000" />
+      <workItem from="1659279316448" duration="37530000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1658565289500</created>
@@ -336,14 +301,7 @@
       <option name="project" value="LOCAL" />
       <updated>1659356246316</updated>
     </task>
-    <task id="LOCAL-00022" summary="Start OnlineShop">
-      <created>1659358954855</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1659358954855</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,13 +340,14 @@
     <MESSAGE value="Ar fi prima varianta finala la librarie" />
     <MESSAGE value="comentarii" />
     <MESSAGE value="Start OnlineShop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start OnlineShop" />
+    <MESSAGE value="new project company" />
+    <option name="LAST_COMMIT_MESSAGE" value="new project company" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Projects/P04_Shelter/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/Projects/P02_Shelter/Main.java</url>
           <line>2</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -408,9 +367,9 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Projects/P06_Library/Main.java</url>
-          <line>125</line>
-          <option name="timeStamp" value="37" />
+          <url>file://$PROJECT_DIR$/src/Projects/P04_Library/Main.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
